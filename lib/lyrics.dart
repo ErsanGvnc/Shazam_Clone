@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, unused_local_variable, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, unused_local_variable, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, library_private_types_in_public_api
 
 import 'dart:ui';
 

@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_final_fields, unused_local_variable, sized_box_for_whitespace, avoid_unnecessary_containers
+// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_final_fields, unused_local_variable, sized_box_for_whitespace, avoid_unnecessary_containers, library_private_types_in_public_api
 
 import 'package:flutter/material.dart';
 
@@ -16,44 +16,45 @@ class _SearchState extends State<Search> {
     return Scaffold(
       backgroundColor: Color.fromRGBO(0, 13, 21, 2),
       appBar: AppBar(
-          backgroundColor: Color.fromRGBO(0, 13, 21, 2),
-          // The search area here
-          title: Container(
-            width: double.infinity,
-            height: 40,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(5),
-            ),
-            child: Center(
-              child: TextField(
-                autofocus: true,
-                controller: _controller,
-                style: TextStyle(color: Colors.white),
-                decoration: InputDecoration(
-                  //focusColor: Color(),
-                  filled: true,
-                  fillColor: Color.fromRGBO(0, 13, 21, 2),
-                  suffixIcon: InkWell(
-                    onTap: () {
-                      _controller.clear();
-                    },
-                    child: Icon(
-                      Icons.clear,
-                      color: Colors.white,
-                    ),
+        backgroundColor: Color.fromRGBO(0, 13, 21, 2),
+        // The search area here
+        title: Container(
+          width: double.infinity,
+          height: 40,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(5),
+          ),
+          child: Center(
+            child: TextField(
+              autofocus: true,
+              controller: _controller,
+              style: TextStyle(color: Colors.white),
+              decoration: InputDecoration(
+                //focusColor: Color(),
+                filled: true,
+                fillColor: Color.fromRGBO(0, 13, 21, 2),
+                suffixIcon: InkWell(
+                  onTap: () {
+                    _controller.clear();
+                  },
+                  child: Icon(
+                    Icons.clear,
+                    color: Colors.white,
                   ),
-                  hintText: "Şarkılar, sanatçılar ve şarkı sözleri ara",
-                  border: InputBorder.none,
-                  hintStyle: TextStyle(
-                    color: Colors.grey,
-                    overflow: TextOverflow.ellipsis,
-                    fontSize: 16,
-                  ),
+                ),
+                hintText: "Şarkılar, sanatçılar ve şarkı sözleri ara",
+                border: InputBorder.none,
+                hintStyle: TextStyle(
+                  color: Colors.grey,
+                  overflow: TextOverflow.ellipsis,
+                  fontSize: 16,
                 ),
               ),
             ),
-          )),
+          ),
+        ),
+      ),
       body: Container(
         child: SingleChildScrollView(
           child: Column(

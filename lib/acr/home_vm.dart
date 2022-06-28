@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print, prefer_is_empty
+
 import 'dart:async';
 
 import 'package:acr_cloud_sdk/acr_cloud_sdk.dart';

@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, unused_local_variable
+// ignore_for_file: prefer_const_constructors, unused_local_variable, unnecessary_import, use_key_in_widget_constructors, library_private_types_in_public_api, no_leading_underscores_for_local_identifiers
 
 import 'package:shazam_clone/acr/margin.dart';
 import 'package:shazam_clone/acr/providers.dart';

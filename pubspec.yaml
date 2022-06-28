@@ -1,5 +1,5 @@
 name: shazam_clone
-description: A new Flutter project.
+description: Shazam Clone.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -31,11 +31,11 @@ dependencies:
     sdk: flutter
   animated_text_kit: ^4.2.1
   share: ^2.0.4
-  webview_flutter: ^2.1.2
+  webview_flutter: ^3.0.4
   flutter_launcher_icons: ^0.9.2
 #///////////////////////////////////////////////////////////////////////////
 
-  acr_cloud_sdk:
+  acr_cloud_sdk: ^2.0.1
     # When depending on this package from a real application you should use:
     #   acr_cloud_sdk: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
@@ -46,7 +46,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   dio: ^4.0.0-beta7
-  permission_handler: ^6.1.0
+  permission_handler: ^9.2.0
   url_launcher: ^6.0.12
   
   # State Management
@@ -56,10 +56,10 @@ dependencies:
 
   # Equality
   equatable: ^2.0.0
-  modal_bottom_sheet: ^2.0.00
+  modal_bottom_sheet: ^2.1.0
 
   #UI
-  google_fonts: ^2.0.0
+  google_fonts: ^3.0.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -81,7 +81,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

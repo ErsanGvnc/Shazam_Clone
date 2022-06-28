@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_typing_uninitialized_variables, avoid_print, curly_braces_in_flow_control_structures
+
 import 'dart:io';
 
 import 'package:shazam_clone/acr/base_network.dart';
@@ -23,7 +25,7 @@ class ApiHelper with BaseNetwork {
       throw FetchDataException('No Internet connection');
     } catch (e) {
       if (e is UnauthorisedException) Log().error(e.toString());
-      throw e;
+      rethrow;
     }
     return responseJson;
   }
@@ -45,7 +47,7 @@ class ApiHelper with BaseNetwork {
       throw FetchDataException('No Internet connection');
     } catch (e) {
       if (e is UnauthorisedException) Log().error(e.toString());
-      throw e;
+      rethrow;
     }
     return responseJson;
   }
@@ -87,7 +89,7 @@ class ApiHelper with BaseNetwork {
       if (e.toString().toLowerCase().contains('time'))
         throw 'Sever Took too long to Respond';
       else
-        throw e;
+        rethrow;
     }
     return responseJson;
   }

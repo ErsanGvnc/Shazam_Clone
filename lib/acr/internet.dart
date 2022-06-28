@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, unnecessary_null_comparison, prefer_final_fields, avoid_print, unused_local_variable, unnecessary_string_interpolations
+// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, unnecessary_null_comparison, prefer_final_fields, avoid_print, unused_local_variable, unnecessary_string_interpolations, unused_import, library_private_types_in_public_api
 
 import 'dart:async';
 
@@ -36,64 +36,13 @@ class _InternetState extends State<Internet> {
           InkWell(
             onTap: () async {
               print(songModel?.artist?.id);
-
-              // FutureBuilder<WebViewController>(
-              //   future: _controller.future,
-              //   builder: (
-              //     BuildContext context,
-              //     AsyncSnapshot<WebViewController> controller,
-              //   ) {
-              //     if (controller.hasData) {
-              //       return FloatingActionButton(
-              //         onPressed: () async {
-              //           controller.data!.reload();
-              //         },
-              //         child: Icon(Icons.refresh),
-              //       );
-              //     }
-              //     return Container();
-              //   },
-              // );
             },
             child: Icon(
               Icons.refresh,
               size: 27,
             ),
           ),
-          // IconButton(
-          //   onPressed: () {
-          //     print("object");
-          //     FutureBuilder<WebViewController>(
-          //       future: _controller.future,
-          //       builder: (
-          //         BuildContext context,
-          //         AsyncSnapshot<WebViewController> controller,
-          //       ) {
-          //         if (controller.hasData) {
-          //           return FloatingActionButton(
-          //             onPressed: () async {
-          //               controller.data!.reload();
-          //             },
-          //             child: Icon(Icons.refresh),
-          //           );
-          //         }
-          //         return Container();
-          //       },
-          //     );
-          //   },
-          //   icon: Icon(
-          //     Icons.refresh,
-          //     size: 27,
-          //   ),
-          // ),
           SizedBox(width: 10),
-          // IconButton(
-          //   onPressed: () {
-          //     // print("${songModel?.link}");
-          //     // print("asdasdasdasd");
-          //   },
-          //   icon: Icon(Icons.arrow_back),
-          // ),
         ],
       ),
       body: WebView(

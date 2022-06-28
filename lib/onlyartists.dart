@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors, avoid_unnecessary_containers, unused_local_variable, prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_import, sized_box_for_whitespace
+// ignore_for_file: use_key_in_widget_constructors, avoid_unnecessary_containers, unused_local_variable, prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_import, sized_box_for_whitespace, unused_element, library_private_types_in_public_api, no_leading_underscores_for_local_identifiers
 
 import 'dart:ffi';
 import 'dart:ui';

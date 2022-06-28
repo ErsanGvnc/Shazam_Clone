@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, unnecessary_null_comparison, prefer_final_fields, avoid_print, unused_local_variable
+// ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, unnecessary_null_comparison, prefer_final_fields, avoid_print, unused_local_variable, library_private_types_in_public_api
 
 import 'dart:async';
 
@@ -23,27 +23,11 @@ class _InternetState extends State<Internet> {
         backgroundColor: Color.fromRGBO(0, 13, 21, 2),
         title: Text("TOP 200 TÜRKİYE Popüler Listesi"),
         actions: [
-          InkWell(
-            onTap: () async {
-              // FutureBuilder<WebViewController>(
-              //   future: _controller.future,
-              //   builder: (
-              //     BuildContext context,
-              //     AsyncSnapshot<WebViewController> controller,
-              //   ) {
-              //     if (controller.hasData) {
-              //       return FloatingActionButton(
-              //         onPressed: () async {
-              //           controller.data!.reload();
-              //         },
-              //         child: Icon(Icons.refresh),
-              //       );
-              //     }
-              //     return Container();
-              //   },
-              // );
+          IconButton(
+            onPressed: () {
+              print("object");
             },
-            child: Icon(
+            icon: Icon(
               Icons.refresh,
               size: 27,
             ),

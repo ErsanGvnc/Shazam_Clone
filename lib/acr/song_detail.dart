@@ -1,4 +1,4 @@
-// ignore_for_file: unused_local_variable, unnecessary_string_interpolations, use_key_in_widget_constructors, prefer_const_constructors
+// ignore_for_file: unused_local_variable, unnecessary_string_interpolations, use_key_in_widget_constructors, prefer_const_constructors, unused_import, sized_box_for_whitespace, avoid_print, avoid_unnecessary_containers, must_be_immutable, camel_case_types, prefer_final_fields, prefer_typing_uninitialized_variables, library_private_types_in_public_api
 
 import 'dart:async';
 
@@ -8,7 +8,6 @@ import 'package:shazam_clone/acr/margin.dart';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:shazam_clone/songinfo.dart';
 import 'package:url_launcher/link.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
@@ -53,7 +52,7 @@ class SongDetailPage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => deneme(
+                  builder: (context) => Deneme(
                     gelen: songModel?.album?.link,
                     gelenbaslik: songModel?.title,
                   ),
@@ -152,7 +151,7 @@ class SongDetailPage extends StatelessWidget {
                         //     Navigator.push(
                         //       context,
                         //       MaterialPageRoute(
-                        //         builder: (context) => deneme(
+                        //         builder: (context) => Deneme(
                         //           gelen: songModel?.link,
                         //           gelenbaslik: songModel?.title,
                         //         ),
@@ -198,16 +197,16 @@ class SongDetailPage extends StatelessWidget {
 
 ////////////////////////////////////////////////////////////// class lar veri taşıma kaldı onun dışında her şey dogru çalısıyor / classlar arası veri taşıma yapıldı
 
-class deneme extends StatefulWidget {
+class Deneme extends StatefulWidget {
   var gelen;
   var gelenbaslik;
-  deneme({required this.gelen, this.gelenbaslik});
+  Deneme({required this.gelen, this.gelenbaslik});
 
   @override
-  _denemeState createState() => _denemeState();
+  _DenemeState createState() => _DenemeState();
 }
 
-class _denemeState extends State<deneme> {
+class _DenemeState extends State<Deneme> {
   Completer<WebViewController> _controller = Completer<WebViewController>();
 
   @override
@@ -234,6 +233,7 @@ class _denemeState extends State<deneme> {
               // print(songModel?.title);
 
               print(widget.gelen);
+              print("acr/song_detail.dart");
 
               // FutureBuilder<WebViewController>(
               //   future: _controller.future,

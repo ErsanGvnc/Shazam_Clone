@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_final_fields, unused_local_variable, sized_box_for_whitespace, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables
+// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, prefer_final_fields, unused_local_variable, sized_box_for_whitespace, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, unused_import, duplicate_import, avoid_print, library_private_types_in_public_api
 
 import 'package:flutter/material.dart';
 import 'package:shazam_clone/acr/home_page.dart';
