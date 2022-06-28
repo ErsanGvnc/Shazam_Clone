@@ -1,6 +1,6 @@
 # shazam_clone
 
-A new Flutter project.
+Shazam Clone.
 
 ## Getting Started
 
