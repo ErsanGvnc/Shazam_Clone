@@ -2,6 +2,25 @@
 
 Shazam Clone.
 
+# Run
+
+In order to run your application, type:
+
+<!--START_SECTION:waka-->
+```text
+  $ cd shazam_clone_full
+```
+<!--END_SECTION:waka-->
+
+
+<!--START_SECTION:waka-->
+```text
+  $ flutter run
+```
+<!--END_SECTION:waka-->
+
+Your application code is in shazam_clone_full\lib\main.dart.
+
 
 # Assets/Videos
 
