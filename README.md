@@ -2,15 +2,19 @@
 
 Shazam Clone.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Assets/Videos
 
-A few resources to get you started if this is your first Flutter project:
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/57798484/177042417-c5006c9a-6c74-418d-8d9b-0cb7a22bcabd.png" width="400"/>
+  <img src="https://media.giphy.com/media/iA5coKnx7urBxPGPFH/giphy.gif" width="400"/>
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+<img src="https://media.giphy.com/media/PFhRlzeNuhLweGfeSb/giphy.gif" width="400"/>
+
+
+https://user-images.githubusercontent.com/57798484/177041614-2fd8fba6-b6a3-449e-9729-2a9b56e43f78.mp4
+
