@@ -239,7 +239,7 @@ class _AnaSayfaState extends State<AnaSayfa> with TickerProviderStateMixin {
                           ),
                         ),
                         ////////////////////////////////////////////////////////
-                        SizedBox(height: 75),
+                        Flexible(child: SizedBox(height: 75)),
                         InkWell(
                           onTap: () {
                             Navigator.push(
