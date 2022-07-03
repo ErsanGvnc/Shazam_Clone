@@ -7,8 +7,9 @@ Shazam Clone.
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/57798484/177042417-c5006c9a-6c74-418d-8d9b-0cb7a22bcabd.png" width="400"/>
-  <img src="https://media.giphy.com/media/iA5coKnx7urBxPGPFH/giphy.gif" width="400"/>
+  <img src="https://user-images.githubusercontent.com/57798484/177042463-0a23316c-2658-4adf-8941-75b12550e65a.png" width="400"/>
 </p>
+
 
 
 
