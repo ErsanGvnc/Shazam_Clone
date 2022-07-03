@@ -26,11 +26,6 @@ Shazam Clone.
 </p>
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/57798484/177042587-e30b1b55-42af-41a7-b8b3-89a2db9f087a.png" width="400"/>
-  <img src="https://user-images.githubusercontent.com/57798484/177042594-451e4a89-eb6b-4352-8492-7819562a239c.png" width="400"/>
-</p>
-
-<p float="left">
   <img src="https://user-images.githubusercontent.com/57798484/177042604-9ea03194-6b3e-4b65-ac7f-fd4cb73b4fb2.png" width="400"/>
   <img src="https://user-images.githubusercontent.com/57798484/177042609-db4953b3-27e6-487a-8b53-de0545fe90cd.png" width="400"/>
 </p>
