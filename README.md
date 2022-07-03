@@ -17,7 +17,7 @@ Shazam Clone.
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/57798484/177042581-7ea17b03-2b2b-4c0c-b137-3c83f150b74c.png" width="400"/>
-  <img src="hhttps://user-images.githubusercontent.com/57798484/177042584-dcd54fb3-414c-46fd-bcc2-53bc167db1c1.png" width="400"/>
+  <img src="https://user-images.githubusercontent.com/57798484/177042584-dcd54fb3-414c-46fd-bcc2-53bc167db1c1.png" width="400"/>
 </p>
 
 <p float="left">
