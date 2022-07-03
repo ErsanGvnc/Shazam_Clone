@@ -51,7 +51,7 @@ Shazam Clone.
 
 
 
-<img src="https://media.giphy.com/media/PFhRlzeNuhLweGfeSb/giphy.gif" width="800"/>
+<img src="https://media.giphy.com/media/PFhRlzeNuhLweGfeSb/giphy.gif"/>
 
 
 https://user-images.githubusercontent.com/57798484/177041614-2fd8fba6-b6a3-449e-9729-2a9b56e43f78.mp4
